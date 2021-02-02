@@ -18,27 +18,7 @@ In each of these stages, we illustrate how both graphic (visual) techniques and 
 
 A second goal of this document is to illustrate how social work researchers can use the R statistical computing environment to develop and execute a data analysis strategy. We encourage our doctoral students to build a repertoire of data science skills using a variety of statistical packages, e.g., SPSS, Stata, MPlus. The R computing environment and the extensive availability of user-developed functions offers a great deal of flexibility and capacity to social work research. R has become the flagship computing environment (lingua franca, as it were) for many areas of science and has great appeal because it is free and open-access. In addition, free tools like RStudio (an interactive development environments for R) and R Markdown (a full featured document preparation system using text and R code) promote an a replication commitment and open science philosophy important to our work. Note: This document was prepared using RStudio and R Markdown.
 
-The first step in using R is to identify the packages you will need for various statistical tests and graphic presentations. A strength of R is that there are literally thousands of packages available for virtually any statistical need you might have -- a challenge in using R is that there are thousands of packages for you to navigate. With some patience and the availability of a broad R support community, you should soon find the handful of packages useful for your work. The packages we used for this demonstration are listed below. If you are replicating this report, you will need to initially install each package by doing the following:
-
-1. Delete the # sign in the first column, # signs are used to comment in R
-2. Once the # sign is deleted, run the install command for each package
-3. You only need to install a package once, it will be available in future sessions.
-
-```{r message=FALSE, warning=FALSE}
-#install.packages("car")        
-#install.packages("questionr")   
-#install.packages("effectsize") 
-#install.packages("lattice")     
-#install.packages("ggplot2")     
-#install.packages("dplyr")       
-#install.packages("knitr")       
-#install.packages("psych")       
-#install.packages("psychTools")   
-#install.packages("gplots")      
-#install.packages("vcd")         
-#install.packages("aplpack")     
-#install.packages("gridExtra")   
-```
+The first step in using R is to identify the packages you will need for various statistical tests and graphic presentations. A strength of R is that there are literally thousands of packages available for virtually any statistical need you might have -- a challenge in using R is that there are thousands of packages for you to navigate. With some patience and the availability of a broad R support community, you should soon find the handful of packages useful for your work. The packages we used for this demonstration are listed below. We recommend that the packages be installed manually in RStudio by clicking on the packages tab in the lower right panel and selecting the install options. Typing in the first few letters will generate a list of packages -- simple select the one you want to install and follow the prompts.
 
 Once installed, the library command loads each package for use during the session:
 
