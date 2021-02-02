@@ -5,7 +5,7 @@ If you are interested in replicating this report, follow these steps:
 3) Download two files from this repository, `Using_R_for_Social_Work_Research.Rmd` and `survey.csv`, and save them together in the **same folder**. You can do this by using the green `download` button in the top right corner of the file window or by clicking on each file separately and downloading.
 4) Open RStudio.
 6) Use the File menu in RStudio to open the `Using_R_for_Social_Work_Research.Rmd` file you saved from wherever you saved it. 
-7) There is a section of the file that has instructions about how to install necessay packages. Follow the instructions to make sure they are available.
+7) There is a section of the file that has instructions about how to install necessary packages. Follow the instructions to make sure they are available.
 8) Click "Knit" at the top of the window that shows all the R code, it has a tiny blue ball of yarn next to it.
 8) There will be some activity in the lower R Markdown pane and a new windown should open containing the pdf.
 
