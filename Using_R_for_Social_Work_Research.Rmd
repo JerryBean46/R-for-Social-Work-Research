@@ -25,17 +25,13 @@ Once installed, the library command loads each package for use during the sessio
 ```{r message=FALSE, warning=FALSE}
 ##Load Libraries
 library(car)         ## Companion for applied regression
-library(questionr)   ## Helpful functions for survey research  
 library(effectsize)  ## Indexes of effect Sizes and standardized parameters
-library(lattice)     ## Graphics system
 library(ggplot2)     ## Graphics system
 library(dplyr)       ## Comprehensive package for data science
 library(knitr)       ## An engine for dynamic report generation with R
 library(psych)       ## A general purpose toolbox for research
-library(psychTools)  ## Tools to accompany the 'psych' Package 
 library(gplots)      ## Various R Programming tools for plotting data
 library(vcd)         ## Tools for visualizing categorical data
-library(aplpack)     ## Data plotting package
 library(gridExtra)   ## Miscellaneous functions for "Grid" graphics 
 ```
 
